@@ -1,6 +1,9 @@
 #!/bin/bash
 
-sketchybar --add item cpu right \
+sketchybar --add item cpu left \
            --set cpu  update_freq=2 \
                       icon=  \
-                      script="$PLUGIN_DIR/cpu.sh"
+                      icon.color=$RED \
+                      label.color=$RED \
+                      script="$PLUGIN_DIR/cpu.sh" \
+                      background.drawing=off
