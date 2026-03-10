@@ -25,8 +25,9 @@ alias ll='ls -lahG'
 alias gc='git commit'
 alias gp='git push'
 alias gl='git pull'
-alias vi='NVIM_APPNAME=nvims/LazyVim nvim'
+alias lvi='NVIM_APPNAME=nvims/LazyVim nvim'
 alias cvi='NVIM_APPNAME=nvims/custom nvim'
+alias vi='NVIM_APPNAME=nvims/lite nvim@0.12'
 
 if [[ `uname` == Darwin ]]; then
     MAX_MEMORY_UNITS=KB
